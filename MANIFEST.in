@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include seizuersystem *.css
+recursive-include seizuersystem *.csv
+recursive-include seizuersystem *.html
+recursive-include seizuersystem *.ico
+recursive-include seizuersystem *.js
+recursive-include seizuersystem *.json
+recursive-include seizuersystem *.md
+recursive-include seizuersystem *.png
+recursive-include seizuersystem *.py
+recursive-include seizuersystem *.svg
+recursive-include seizuersystem *.txt
+recursive-exclude seizuersystem *.pyc
